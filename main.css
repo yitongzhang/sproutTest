@@ -1,0 +1,90 @@
+html{
+  font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:1rem;
+  font-weight: 400;
+  
+}
+
+.half{
+  width: 50%;
+  float: left;
+}
+
+.filler	p{
+	color: white;
+}
+
+body{
+	background-color: grey;
+}
+
+ul{
+  padding-left:0;
+  margin-top:16px;
+}
+
+li{
+	list-style: none;
+}
+
+li li{
+	display: inline-block;
+	margin-bottom: 32px;
+}
+
+.demo h1, .trial h1{
+	color: white;
+	text-align: center;
+}
+
+.demo button{
+	background-color: rgba(0, 0, 0, 0.0);
+	border: .1111111111rem solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label{
+  background-color:#F3F4F4;
+  padding: 16px 16px;
+}
+
+label:hover{
+	background-color:#EDEDED;
+}
+
+fieldset{
+  border:none;
+  box-shadow: 0px 2px 40px #364141;
+  padding:24px;
+  background-color: white;
+  border-radius: 3px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formContent{
+	margin-left: 16px;
+}
+
+button, input[type=submit] {
+  font-family: "proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 16px 0;
+  background-color: #59cb59;
+  border: .1111111111em solid transparent;
+  line-height: 1;
+  vertical-align:middle;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  color:white;
+  border-radius:.1666666667rem;
+}
+
+button,input[type=submit]{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
